@@ -12,3 +12,27 @@ else:
     print("please type !help to get started!") #reminds user to type !help -maia
 
     
+    def shopping(): #shopping function - maia
+
+        print("working on this")
+
+
+    def tips():
+
+        print("working on this")
+
+    
+    def vehicles():
+
+        print("working on this")
+
+
+    def volunteering():
+
+        print("working on this")
+
+
+    def donating():
+
+        print("working on this")
+
