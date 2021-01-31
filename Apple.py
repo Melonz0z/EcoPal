@@ -11,8 +11,10 @@ else:
 
     print("please type !help to get started!") #reminds user to type !help -maia
 
+# Test 1 - commit 
+print(commit)
 
-# Test 1 - pull request 
+# Test 2 - pull request 
 print(pull request)
 
     
