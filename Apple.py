@@ -1,7 +1,25 @@
 def shopping(): #shopping function - maia
 
+    # give some advice about environmentally friendly shopping
+    print("It is important to buy from places that value the environment.")
+    print ("When shopping, the best options to help the environment are to buy used. \nIf possible, try repairing"
+    "an old item or borrowing from a friend if it's an item you do not plan to keep")
+    print ("If you are buying something new, please think about if you realy need this item.")
+    c = input("\nHow long do you plan on keeping this item?(one week or less, one month, forever)")
+    
+    if c == "one week or less":
 
-     print("It is important to buy from places that value the environment.")
+        print ("\nPlease reconsider buying this item. It will not be worth it to you or the environment. Borrow it from a friend or rent if possible")
+        print ("If you do have to buy it, please use it for as long as possible and be sure to discard/recycle accordingly")
+
+    elif c == "one month":
+
+        print ("\nThink about the environmental impact this products could potentially have. Please think about other buying options such as renting, borrowing from a friend, or buying used")
+    
+    elif c == "forever":
+
+        print ("\nThis is excellent! Buying something you are planning to keep forever is ideal. Keep it up!")
+
 
 
 def tips():
