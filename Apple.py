@@ -24,22 +24,26 @@ def shopping(): #shopping function - maia
 
         print ("\nThis is excellent! Buying something you are planning to keep forever is ideal. Keep it up!")
 
+    main()
+
 
 
 def tips():
 
     print("Welcome to tips!\n")
 
+    # some general advice
     advice = ["Always dispose of items properly (either recycling, composting, or garbage", "Avoid fast fashion trends",
     "Limit your water use", "Buy used or repair items instead of buying new", "Look for energy efficient appliances", "Don't waste food",
     "Try to eat less meat"]
 
+    # print a random tip
     tip = (random.choice(advice))
     print (tip)
 
-
+    # see if user wants to learn more
     more = input("\nWould you like to learn more about this tip?(yes/no)")
-
+    
     if more == "yes":
             i = advice.index(tip)
             if i == 0:
@@ -54,39 +58,50 @@ def tips():
             elif i == 4:
                 print("Look for the most efficent applicance you can find!")
             elif i == 5:
-                print("A lof of energy goes into food production around the world. Make sure you finish food that you buy")
+                print("A lof of energy goes into food production around the world. Make sure you finish food that you buy.")
             elif i == 6:
                 print("Meat has a significant environmental impact due to what it takes to raise livestock(their food, land space and emissions). Try to limit meat consumption(especially red meat)"
                 " to a reasonable amount for you. Anything helps!")
     else:
             print("Thanks for your time")
-
-       
+    
+    main()
+            
 
 
     
 def vehicles():
 
-    print("working on this")
+    #start of some advice for vehicles
+    print ("Welcome to vehicles tips!\n")
 
+    print("Vehicles release a significant amount of emissions. Because of this, be sure to only drive when necessary. Try to combine errands!")
+    main()
 
 def volunteering():
 
-    print("working on this")
+    #start of some volunteering tips
+    print ("Welcome to volunteering tips!\n")
 
+    print("Look into ways you can help the cause in your community. If you find nothing, consider starting your own group. Think of something you" 
+    " want to change in your community, and work towards it. You'll meet people with the same goals along the way!")
+    main()
 
 def donating():
 
-    print("working on this")
+    #start some donation tips
+    print ("Welcome to donation tips!\n")
 
+    print("Be sure to research good charities and causes that you are passionate about. Just a small donation can go a long way.")
+    main()
 
 def main():
 
-    help = "!help"
+    help = "help"
     
-    a = input("Hello! I'm EcoPal, your guide in living a more sustainable lifestyle. type !help for a list of commands \n")
+    a = input("Hello! I'm EcoPal, your guide in living a more sustainable lifestyle. type help for a list of commands \n")
 
-    if a == "!help": 
+    if a == "help": 
 
         #list of commands for the user to say -maia
 
